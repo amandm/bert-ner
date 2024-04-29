@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+model_v2
+__pycache__
+bin
+flagged
+eval_results
