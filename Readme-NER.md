@@ -1,3 +1,28 @@
+# Table of Contents
+
+1. [Japanese NER Model](#japanese-ner-model)
+2. [Required Libraries](#required-libraries)
+3. [Training Procedure](#training-procedure)
+   - [Data Preparation](#data-preparation)
+   - [Base Pretrained Model](#base-pretrained-model)
+   - [Label Processing](#label-processing)
+   - [Training](#training)
+   - [Output](#output)
+   - [TensorBoard](#tensorboard)
+4. [Evaluation Metrics](#evaluation-metrics)
+5. [Model Evaluation](#model-evaluation)
+   - [Overview](#overview)
+   - [Setup](#setup)
+   - [Running Evaluation](#running-evaluation)
+   - [Evaluation Output](#evaluation-output)
+6. [Web Demo](#web-demo)
+   - [Overview](#overview-demo)
+   - [Setup](#setup-demo)
+   - [Functionality](#functionality)
+   - [Running the Web Demo](#running-the-web-demo)
+   - [Example Usage](#example-usage)
+7. [How to Use](#how-to-use)
+
 # Japanese NER Model
 
 This project focuses on training a Named Entity Recognition (NER) model for Japanese text using PyTorch and Hugging Face's Transformers.
